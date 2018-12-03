@@ -7,7 +7,7 @@ angular.module('ui.bootstrap.datetimepicker', ['ui.bootstrap.dateparser', 'ui.bo
         defaultTime: '00:00:00',
         html5Types: {
             date: 'yyyy-MM-dd',
-            'datetime-local': 'yyyy-MM-ddTHH:mm:ss.sss',
+            'datetime-local': 'yyyy-MM-dd HH:mm:ss',
             'month': 'yyyy-MM'
         },
         initialPicker: 'date',
